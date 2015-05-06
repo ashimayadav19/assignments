@@ -1,0 +1,23 @@
+<html>
+<head>
+<title> js 2 </title>
+</head>
+<body>
+<script language="javascript">
+var rad=prompt("Enter the string","ashima");
+var i; var j;var flag=1;
+for(i=0,j=rad.length-1;i<rad.length,j>=0;i++,j--)
+{
+
+if(rad[i]!=rad[j])
+{
+flag=0;
+break;
+}}
+if(flag)
+document.writeln("palindrome");
+else
+document.writeln("Not a palindrome");
+</script>
+</body>
+</html>

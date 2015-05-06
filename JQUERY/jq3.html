@@ -1,0 +1,27 @@
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#hide").click(function(){
+        var txt=$("p").text();
+	if(txt=="hi")
+	$("p").text("hello");
+	else if(txt=="hello")
+	$("p").text("hi");
+	
+	
+	
+    });
+});    
+</script>
+</head>
+<body>
+
+<p>hi</p>
+<button id="hide">Hide</button>
+
+
+
+</body>
+</html>
